@@ -1,28 +1,28 @@
 class Bypass < Formula
   desc "Terminal secrets manager for KeePass vaults"
   homepage "https://github.com/yaroshevych/bypass"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.4/bypass_0.3.4_darwin_arm64.tar.gz"
-      sha256 "3d7a1f7e3dbb0d25dc8ff1218ee156fe1ce2d417379c0f734a5047526edb4a13"
+      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.5/bypass_0.3.5_darwin_arm64.tar.gz"
+      sha256 "9fa02f73c646725e58d299738bc3fdeb40bba8d0996977f0f90e7a7c57114f69"
     end
     on_intel do
-      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.4/bypass_0.3.4_darwin_amd64.tar.gz"
-      sha256 "d5423c49f9149c1d3024044f3cd5f000c0b491ac0f3e6bb5416d3576d0c80f26"
+      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.5/bypass_0.3.5_darwin_amd64.tar.gz"
+      sha256 "666584b77b8c535ca69f35213c1a5edb13bb03a0d0df6b76d6c55c55e960021e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.4/bypass_0.3.4_linux_arm64.tar.gz"
-      sha256 "858dd72b3d796e249c3238ad0da5039a27a762f9c1b882f558306fe49b3006f0"
+      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.5/bypass_0.3.5_linux_arm64.tar.gz"
+      sha256 "16b2531b2fd23bc128781c76b42e38cb38fa068dcae99d35e4ae0976f3659cfe"
     end
     on_intel do
-      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.4/bypass_0.3.4_linux_amd64.tar.gz"
-      sha256 "4cbd956a501f520a0dad297fecad626e47089b419bd3fcb5f951398d86f51615"
+      url "https://github.com/yaroshevych/bypass/releases/download/v0.3.5/bypass_0.3.5_linux_amd64.tar.gz"
+      sha256 "54e72fa2b67680c7a343dc47d8a0d2448506cab676381e00cfe2587dd79ab27a"
     end
   end
 
