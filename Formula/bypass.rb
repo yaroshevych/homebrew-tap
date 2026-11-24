@@ -7,22 +7,22 @@ class Bypass < Formula
   on_macos do
     on_arm do
       url "https://github.com/yaroshevych/bypass/releases/download/v0.4.0/bypass_0.4.0_darwin_arm64.tar.gz"
-      sha256 "ecae4b92e4730becbfe8db2f05ce75def69b2538f38c929fbf17a24bd9dd929e"
+      sha256 "1cf35084c97c432ad6af2d81308355083b9948a0f13fc82e2c038f2f6bac63ae"
     end
     on_intel do
       url "https://github.com/yaroshevych/bypass/releases/download/v0.4.0/bypass_0.4.0_darwin_amd64.tar.gz"
-      sha256 "42ad5260d1c76a7fd1863b44748eebf6e719d2d246880948d085cb25f37c6560"
+      sha256 "5f2fa6640b079710f836cec4f5aaa56b519fe7f7a19715a531328ac73c65ab55"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yaroshevych/bypass/releases/download/v0.4.0/bypass_0.4.0_linux_arm64.tar.gz"
-      sha256 "813a625e53bad1bd2cb354960a9da7794d3d1e2b9fb2641a4c45f7d01a1261d4"
+      sha256 "94932095bd4d60544aa1878cec4453d90e00cd027c7a42995f707705ac411cac"
     end
     on_intel do
       url "https://github.com/yaroshevych/bypass/releases/download/v0.4.0/bypass_0.4.0_linux_amd64.tar.gz"
-      sha256 "65c2962cf59ee84615d97d85d2f7ecf852acc29fa1054a53d2a93c29033b6d79"
+      sha256 "ee17e5a0ca0a755bdc48d4d18f42bb27a55a1c5916b63f532a0431e73b74426b"
     end
   end
 
